@@ -9,7 +9,7 @@ int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
     
-    int torre = 1, bispo = 1, rainha =1;  //varial de entrada, serve para todos os loops!
+    int torre = 1, bispo = 1, rainha =1, cavalo =1;  //varial de entrada, serve para todos os loops!
     
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
@@ -41,10 +41,22 @@ int main() {
         printf("Rainha (%d) para a Esquerda!\n", rainha);
     }
 
-
+    printf("\n");//separando as peças para melhor vizualização
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+
+    while ( cavalo--){//o loop while faz o cavalo anda -1 para direita.
+       
+        for (int i = 1; i <=2 ; i++){ //o loop for faz o cavalo anda 2 para cima.
+        
+            printf("Cavalo (%d) para Cima\n",i);
+            
+        } 
+        
+        printf("Cavalo (%d) para a Direita\n",cavalo +1); // usei o incremento +1 para tirar de 0 e voltar para 1. tendo em vista que o code espace não ta colocando -1 a Direita e no vs code sim.
+                                                   
+    }
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
