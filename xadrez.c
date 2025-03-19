@@ -54,7 +54,7 @@ int main() {
             
         } 
         
-        printf("Cavalo (%d) para a Direita\n",cavalo +1); // usei o incremento +1 para tirar de 0 e voltar para 1. tendo em vista que o code espace não ta colocando -1 a Direita e no vs code sim.
+        printf("Cavalo (%d) para a Direita\n",cavalo +1); // usei o incremento +1 para tirar  while de 0 e voltar para 1. 
                                                    
     }
 
